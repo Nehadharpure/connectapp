@@ -1,4 +1,5 @@
 runtime: php55
+service: my-service
 api_version: 1
 
 handlers:
