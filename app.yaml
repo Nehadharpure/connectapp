@@ -1,3 +1,4 @@
+application:a2rproject-148908
 runtime: php55
 service: my-service
 api_version: 1
@@ -7,6 +8,6 @@ handlers:
   script: cloud.php
   
 env_variables:
-   MYSQL_DSN: mysql:unix_socket=/cloudsql/a2rproject-148908:us-central1:myinstance;port=3306;dbname=inventory
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/a2rproject-148908:us-central1:myinstance;port=3306;dbname=DATABASE
   MYSQL_USER: root
   MYSQL_PASSWORD: 'root@123'
