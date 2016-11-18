@@ -9,7 +9,7 @@
 <body>
 <?php
 
-error_reporting(0);
+//error_reporting(0);
 //$servernameC = "10.140.0.2";
 $servernameC = "localhost";
 $usernameC = "root";
