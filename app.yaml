@@ -1,7 +1,7 @@
 application:a2rproject-148908
 runtime: php55
 service: my_service
-api_version: 2
+api_version: 1
 threadsafe: true
 
 handlers:
