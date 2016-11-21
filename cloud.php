@@ -11,7 +11,7 @@
 
 //error_reporting(0);
 //$servernameC = "10.140.0.2";
-$servernameC = "104.198.41.250";
+$servernameC = "27.58.63.18";
 $usernameC = "root";
 $passwordC = "root@123";
 $dbnameC = "inventory";
