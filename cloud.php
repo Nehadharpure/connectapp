@@ -8,19 +8,16 @@
 
 <body>
 <?php
-$servername = "27.58.63.18";
-$username = "root";
-$password = "root@123";
-$socket = "/cloudsql/a2rproject-148908:us-central1:myinstance";
+$dsn = getenv('MYSQL_DSN');
+$user = getenv('MYSQL_USER');
+$password = getenv('MYSQL_PASSWORD');
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $socket);
-
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+try {
+    $dbh = new PDO($dsn, $user, $password);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
 }
-echo "Connected successfully";
+
 ?>
 </body>
 </html>
