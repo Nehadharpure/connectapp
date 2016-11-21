@@ -5,4 +5,8 @@ handlers:
 - url: /.*
   script: cloud.php
   
+env_variables:
+MYSQL_DSN: mysql:unix_socket=/cloudsql/a2rproject-148908:us-central1:myinstance;port=3306;dbname=inventory
+MYSQL_USER: root
+MYSQL_PASSWORD: 'root@123'
 
