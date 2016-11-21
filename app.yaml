@@ -2,6 +2,7 @@ application:a2rproject-148908
 runtime: php55
 service: connectapp
 api_version: 2
+threadsafe: true
 
 handlers:
 - url: /.*
