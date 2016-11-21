@@ -1,6 +1,6 @@
 application:a2rproject-148908
 runtime: php55
-api_version: 1
+api_version: 3
 
 handlers:
 - url: /.*
