@@ -1,6 +1,6 @@
 application:a2rproject-148908
 runtime: php55
-service: connectapp
+service: my_service
 api_version: 2
 threadsafe: true
 
