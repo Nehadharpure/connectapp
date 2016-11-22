@@ -22,7 +22,7 @@ function get_user()
 		return $result;
     }
 	?>
-<h1> Application connectivity with cloud sql </h1>
+<h1> App Engine Application connectivity with cloud sql </h1>
 
 <table width="200" border="1">
   <tr>
